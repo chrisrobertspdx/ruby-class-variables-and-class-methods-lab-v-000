@@ -36,5 +36,12 @@ class Song
     genre_count_hash
   end
 
+  def self.artist_count
+    artist_count_hash = {}
+    @@artists.to_set.sort.each{|e|
+      artist_count_hash[e] = @@artists.count(e)
+    }
+    artist_count_hash
+  en
 
 end
