@@ -42,6 +42,6 @@ class Song
       artist_count_hash[e] = @@artists.count(e)
     }
     artist_count_hash
-  en
+  end
 
 end
