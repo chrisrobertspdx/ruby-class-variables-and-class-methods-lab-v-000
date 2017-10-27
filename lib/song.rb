@@ -33,6 +33,7 @@ class Song
     @@genres.to_set.sort.each{|e|
       genre_count_hash[e] = @@genres.count(e)
     }
+    genre_count_hash
   end
 
 
